@@ -1,0 +1,573 @@
+211216213611.684 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+211216213611.684 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+211216213611.684 DEBUG 'ansible_navigator.main' Share directory '/home/jveverka/.local/lib/python3.9/share/ansible_navigator' not found (development path)
+211216213611.684 DEBUG 'ansible_navigator.main' Share directory '/home/jveverka/.local/share/ansible_navigator' found (userbase)
+211216213611.684 DEBUG 'ansible_navigator.main' Default collection_doc_cache_path set to: /home/jveverka/.cache/ansible-navigator/collection_doc_cache.db
+211216213611.684 DEBUG 'ansible_navigator.main' EDITOR environment variable set as '{editor}'
+211216213611.684 DEBUG 'ansible_navigator.main' Default editor_command set to: /usr/bin/nano {filename}
+211216213611.684 DEBUG 'ansible_navigator.main' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+211216213611.684 DEBUG 'ansible_navigator.main' Looking in /home/jveverka
+211216213611.684 DEBUG 'ansible_navigator.main' Looking for '/home/jveverka/.ansible-navigator.yml', '/home/jveverka/.ansible-navigator.yaml' and '/home/jveverka/.ansible-navigator.json'
+211216213611.684 DEBUG 'ansible_navigator.main' Found 0: 
+211216213611.685 DEBUG 'ansible_navigator.main' Looking in /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks
+211216213611.685 DEBUG 'ansible_navigator.main' Looking for '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yaml' and '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.json'
+211216213611.685 DEBUG 'ansible_navigator.main' Found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216213611.685 DEBUG 'ansible_navigator.main' All found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216213611.685 DEBUG 'ansible_navigator.main' Using: /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml
+211216213611.685 DEBUG 'ansible_navigator.main' Using settings file at /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml in search path
+211216213611.685 DEBUG 'ansible_navigator.main' Command provided: 'collections --log-leve debug'
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.timeout not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.app not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.cmdline not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.collection-doc-cache-path not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-engine not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-options not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.color.enable not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.editor.command not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.editor.console not found in settings file
+211216213611.685 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.enabled not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.help-config not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.help-doc not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.help-inventory not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.help-playbook not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.inventories not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.inventory-columns not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.logging.append not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.mode not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.color.osc4 not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.enable not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.replay not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.save-as not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.documentation.plugin.name not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.documentation.plugin.type not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.pull-policy not found in settings file
+211216213611.686 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_artifact_dir. (changed=False)
+211216213611.686 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_rotate_artifacts_count. (changed=False)
+211216213611.686 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_timeout. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for cmdline. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for collection_doc_cache_path. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for container_engine. (changed=True)
+211216213611.687 DEBUG 'ansible_navigator.main'  before: 'auto'
+211216213611.687 DEBUG 'ansible_navigator.main'  after: 'podman'
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for container_options. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for display_color. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for editor_console. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_image. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_volume_mounts. (changed=True)
+211216213611.687 DEBUG 'ansible_navigator.main'  before: '[{'src': '/home/jveverka/git/jwerak/ansible', 'dest': '/home/jveverka/git/jwerak/ansible', 'label': 'Z'}]'
+211216213611.687 DEBUG 'ansible_navigator.main'  after: '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']'
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for help_config. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for help_doc. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for help_inventory. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for help_playbook. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for inventory. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for inventory_column. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for log_append. (changed=False)
+211216213611.687 DEBUG 'ansible_navigator.main' Completed post processing for log_file. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for mode. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for osc4. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for pass_environment_variable. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for playbook. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_enable. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_replay. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for plugin_name. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Completed post processing for set_environment_variable. (changed=False)
+211216213611.688 DEBUG 'ansible_navigator.main' Collection doc cache not mounted
+211216213611.688 DEBUG 'ansible_navigator.main' Collection doc cache: 'path' is '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db'
+211216213611.688 DEBUG 'ansible_navigator.main' Collection doc cache: 'current version' is '1.0'
+211216213611.688 DEBUG 'ansible_navigator.main' Collection doc cache not attached to args.internals
+211216213611.688 DEBUG 'ansible_navigator.main' Running with ansible_runner_artifact_dir as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with ansible_runner_rotate_artifacts_count as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with ansible_runner_timeout as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with app as 'collections' (str/cli parameters)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with cmdline as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with collection_doc_cache_path as '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db' (str/default configuration value)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with config as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with container_engine as 'podman' (str/default configuration value)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with container_options as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.688 DEBUG 'ansible_navigator.main' Running with display_color as 'True' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with editor_command as '/usr/bin/nano {filename}' (str/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with editor_console as 'True' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with execution_environment as 'True' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with execution_environment_image as 'registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30' (str/user provided configuration file)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with execution_environment_volume_mounts as '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']' (list/user provided configuration file)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with help_config as 'False' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with help_doc as 'False' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with help_inventory as 'False' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with help_playbook as 'False' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with inventory as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with inventory_column as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with log_append as 'True' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with log_file as '/tmp/log.txt' (str/user provided configuration file)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with log_level as 'debug' (str/cli parameters)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with mode as 'interactive' (str/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with osc4 as 'True' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with pass_environment_variable as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with playbook as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with playbook_artifact_enable as 'True' (bool/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with playbook_artifact_replay as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with playbook_artifact_save_as as '{playbook_dir}/{playbook_name}-artifact-{ts_utc}.json' (str/default configuration value)
+211216213611.689 DEBUG 'ansible_navigator.main' Running with plugin_name as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.690 DEBUG 'ansible_navigator.main' Running with plugin_type as 'module' (str/default configuration value)
+211216213611.690 DEBUG 'ansible_navigator.main' Running with pull_policy as 'tag' (str/default configuration value)
+211216213611.690 DEBUG 'ansible_navigator.main' Running with set_environment_variable as '{'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible'}' (dict/user provided configuration file)
+211216213611.690 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: 1.0.0-30
+211216213611.861 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=False, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216213611.862 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' curses.COLORS: 8
+211216213611.863 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' curses.can_change_color: False
+211216213611.863 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' term_osc4_supprt: False
+211216213611.863 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' Using terminal defaults
+211216213611.866 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216213611.887 DEBUG 'ansible_navigator.actions.collections.run' collections requested
+211216213611.887 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216213611.900 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216213611.911 DEBUG 'ansible_navigator.actions.collections._update_args' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Looking in /home/jveverka
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Looking for '/home/jveverka/.ansible-navigator.yml', '/home/jveverka/.ansible-navigator.yaml' and '/home/jveverka/.ansible-navigator.json'
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Found 0: 
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Looking in /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Looking for '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yaml' and '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.json'
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' All found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Using: /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Using settings file at /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml in search path
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' Command provided: 'collections'
+211216213611.912 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured. (restore original)
+211216213611.912 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured. (restore original)
+211216213611.912 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured. (apply defaults)
+211216213611.912 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured. (apply defaults)
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible-runner.timeout not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.app not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.cmdline not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.collection-doc-cache-path not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.config not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.container-engine not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.container-options not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.color.enable not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.editor.command not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.editor.console not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.enabled not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-config not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-doc not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-inventory not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-playbook not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.inventories not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.inventory-columns not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.logging.append not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.mode not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.color.osc4 not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.playbook not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.playbook-artifact.enable not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.playbook-artifact.replay not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.playbook-artifact.save-as not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.documentation.plugin.name not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.documentation.plugin.type not found in settings file
+211216213611.912 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.pull-policy not found in settings file
+211216213611.912 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured (apply previous cli)
+211216213611.913 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured (apply previous cli)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for ansible_runner_artifact_dir. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for ansible_runner_rotate_artifacts_count. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for ansible_runner_timeout. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for cmdline. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for collection_doc_cache_path. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for container_engine. (changed=True)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args'  before: 'auto'
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args'  after: 'podman'
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for container_options. (changed=False)
+211216213611.913 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured. (post process)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for editor_console. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for execution_environment. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for execution_environment_image. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for execution_environment_volume_mounts. (changed=True)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args'  before: '[{'src': '/home/jveverka/git/jwerak/ansible', 'dest': '/home/jveverka/git/jwerak/ansible', 'label': 'Z'}]'
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args'  after: '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']'
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_config. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_doc. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_inventory. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_playbook. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for inventory. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for inventory_column. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for log_append. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for log_file. (changed=False)
+211216213611.913 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured. (post process)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for osc4. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for pass_environment_variable. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for playbook. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for playbook_artifact_enable. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for playbook_artifact_replay. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for plugin_name. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for set_environment_variable. (changed=False)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache not mounted
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache: 'path' is '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db'
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache: 'current version' is '1.0'
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache attached to args.internals
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with ansible_runner_artifact_dir as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with ansible_runner_rotate_artifacts_count as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with ansible_runner_timeout as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with app as 'collections' (str/cli parameters)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with cmdline as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with collection_doc_cache_path as '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db' (str/default configuration value)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with config as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with container_engine as 'podman' (str/default configuration value)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with container_options as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with display_color as 'True' (bool/default configuration value)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with editor_command as '/usr/bin/nano {filename}' (str/default configuration value)
+211216213611.913 DEBUG 'ansible_navigator.actions.collections._update_args' Running with editor_console as 'True' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with execution_environment as 'True' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with execution_environment_image as 'registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30' (str/user provided configuration file)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with execution_environment_volume_mounts as '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']' (list/user provided configuration file)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_config as 'False' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_doc as 'False' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_inventory as 'False' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_playbook as 'False' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with inventory as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with inventory_column as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with log_append as 'True' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with log_file as '/tmp/log.txt' (str/user provided configuration file)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with log_level as 'debug' (str/previous cli command)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with mode as 'interactive' (str/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with osc4 as 'True' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with pass_environment_variable as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook_artifact_enable as 'True' (bool/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook_artifact_replay as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook_artifact_save_as as '{playbook_dir}/{playbook_name}-artifact-{ts_utc}.json' (str/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with plugin_name as 'Constants.NOT_SET' (Constants/value has not been set)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with plugin_type as 'module' (str/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with pull_policy as 'tag' (str/default configuration value)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._update_args' Running with set_environment_variable as '{'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible'}' (dict/user provided configuration file)
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._run_runner' running collections command with execution environment enabled
+211216213611.914 DEBUG 'ansible_navigator.actions.collections._run_runner' Invoke runner with executable_cmd: python3 and kwargs: {'container_engine': 'podman', 'execution_environment_image': 'registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30', 'execution_environment': True, 'navigator_mode': 'interactive', 'pass_environment_variable': <Constants.NOT_SET: 'value has not been set'>, 'set_environment_variable': {'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible', 'ANSIBLE_NOCOLOR': 'True'}, 'private_data_dir': <Constants.NOT_SET: 'value has not been set'>, 'rotate_artifacts': <Constants.NOT_SET: 'value has not been set'>, 'timeout': <Constants.NOT_SET: 'value has not been set'>, 'container_volume_mounts': ['/home/jveverka/.local/share/ansible_navigator/utils:/home/jveverka/.local/share/ansible_navigator/utils', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:z'], 'host_cwd': '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks', 'cmdline': ['/home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py', '-a', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections', '-c', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db']}
+211216213611.914 DEBUG 'ansible_navigator.runner.api._set_private_data_directory' private data dir not user provided, used tmp location: /tmp/ansible-navigator_w17intua
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_image:registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: process_isolation_executable:podman
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: process_isolation:True
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_volume_mounts:['/home/jveverka/.local/share/ansible_navigator/utils:/home/jveverka/.local/share/ansible_navigator/utils', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:z']
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_options:None
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_workdir:None
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: private_data_dir:/tmp/ansible-navigator_w17intua
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: json_mode:True
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: quiet:True
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: cancel_callback:<bound method BaseRunner.runner_cancelled_callback of <ansible_navigator.runner.api.CommandRunner object at 0x7f1cd6eb1f10>>
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: finished_callback:<bound method BaseRunner.runner_finished_callback of <ansible_navigator.runner.api.CommandRunner object at 0x7f1cd6eb1f10>>
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: artifacts_handler:<bound method BaseRunner.runner_artifacts_handler of <ansible_navigator.runner.api.CommandRunner object at 0x7f1cd6eb1f10>>
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: timeout:None
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: envvars:{'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible', 'ANSIBLE_NOCOLOR': 'True'}
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: host_cwd:/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: executable_cmd:python3
+211216213611.915 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: cmdline_args:['/home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py', '-a', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections', '-c', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db']
+211216213611.915 DEBUG 'ansible-runner._handle_command_wrap' containerization enabled
+211216213611.916 DEBUG 'ansible-runner.wrap_args_for_containerization' container engine invocation: podman run --rm --tty --interactive -v /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/:/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ --workdir /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks -v /run/user/1000/keyring/:/run/user/1000/keyring/ -e SSH_AUTH_SOCK=/run/user/1000/keyring/ssh -v /home/jveverka/.ssh/:/home/runner/.ssh/ --group-add=root --ipc=host -v /tmp/ansible-navigator_w17intua/artifacts/:/runner/artifacts/:Z -v /tmp/ansible-navigator_w17intua/:/runner/:Z -v /home/jveverka/.local/share/ansible_navigator/utils/:/home/jveverka/.local/share/ansible_navigator/utils/ -v /home/jveverka/.cache/ansible-navigator/:/home/jveverka/.cache/ansible-navigator/:z --env-file /tmp/ansible-navigator_w17intua/artifacts/95757e66-a79e-4b1a-ad33-00a21497b755/env.list --quiet --name ansible_runner_95757e66-a79e-4b1a-ad33-00a21497b755 registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30 python3 /home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py -a /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections -c /home/jveverka/.cache/ansible-navigator/collection_doc_cache.db
+211216213611.916 DEBUG 'ansible-runner._handle_command_wrap' command: podman run --rm --tty --interactive -v /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/:/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ --workdir /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks -v /run/user/1000/keyring/:/run/user/1000/keyring/ -e SSH_AUTH_SOCK=/run/user/1000/keyring/ssh -v /home/jveverka/.ssh/:/home/runner/.ssh/ --group-add=root --ipc=host -v /tmp/ansible-navigator_w17intua/artifacts/:/runner/artifacts/:Z -v /tmp/ansible-navigator_w17intua/:/runner/:Z -v /home/jveverka/.local/share/ansible_navigator/utils/:/home/jveverka/.local/share/ansible_navigator/utils/ -v /home/jveverka/.cache/ansible-navigator/:/home/jveverka/.cache/ansible-navigator/:z --env-file /tmp/ansible-navigator_w17intua/artifacts/95757e66-a79e-4b1a-ad33-00a21497b755/env.list --quiet --name ansible_runner_95757e66-a79e-4b1a-ad33-00a21497b755 registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30 python3 /home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py -a /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections -c /home/jveverka/.cache/ansible-navigator/collection_doc_cache.db
+211216213614.168 DEBUG 'ansible_navigator.runner.api.runner_artifacts_handler' ansible-runner artifact_dir set to: '/tmp/ansible-navigator_w17intua/artifacts/95757e66-a79e-4b1a-ad33-00a21497b755'
+211216213614.169 DEBUG 'ansible_navigator.actions.collections._parse' json loading output succeeded
+211216213614.170 INFO 'ansible_navigator.actions.collections._parse' [catalog_collections]: collection path '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/' is ignored as it does not have 'MANIFEST.json' and/or 'galaxy.yml' file(s).
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' catalog collections scan path: /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections:/home/jveverka/git/jwerak/ansible:/usr/lib/python3.8/site-packages:/usr/lib64/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib64/python3.8/site-packages:/usr/lib64/python3.8/lib-dynload:/usr/lib64/python3.8:/usr/lib64/python38.zip:/home/jveverka/.local/share/ansible_navigator/utils:/usr/lib/python3.8/site-packages/ansible/_vendor
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' cache_added_success: 0
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' cache_added_errors: 0
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' collection_count: 0
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' plugin_count: 0
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' unique plugins: 0
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' processed: 0
+211216213614.170 DEBUG 'ansible_navigator.actions.collections._parse' cache_length: 6309
+211216213614.171 DEBUG 'ansible_navigator.actions.collections._parse' duration: 0.428595
+211216213614.171 WARNING 'ansible_navigator.actions.collections._parse' No collections found in execution environment, searched in /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections:/home/jveverka/git/jwerak/ansible:/usr/lib/python3.8/site-packages:/usr/lib64/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib64/python3.8/site-packages:/usr/lib64/python3.8/lib-dynload:/usr/lib64/python3.8:/usr/lib64/python38.zip:/home/jveverka/.local/share/ansible_navigator/utils:/usr/lib/python3.8/site-packages/ansible/_vendor
+211216213614.172 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216213614.200 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216213614.200 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214720.602 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+211216214720.602 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+211216214720.603 DEBUG 'ansible_navigator.main' Share directory '/home/jveverka/.local/lib/python3.9/share/ansible_navigator' not found (development path)
+211216214720.603 DEBUG 'ansible_navigator.main' Share directory '/home/jveverka/.local/share/ansible_navigator' found (userbase)
+211216214720.603 DEBUG 'ansible_navigator.main' Default collection_doc_cache_path set to: /home/jveverka/.cache/ansible-navigator/collection_doc_cache.db
+211216214720.603 DEBUG 'ansible_navigator.main' EDITOR environment variable set as '{editor}'
+211216214720.603 DEBUG 'ansible_navigator.main' Default editor_command set to: /usr/bin/nano {filename}
+211216214720.603 DEBUG 'ansible_navigator.main' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+211216214720.603 DEBUG 'ansible_navigator.main' Looking in /home/jveverka
+211216214720.603 DEBUG 'ansible_navigator.main' Looking for '/home/jveverka/.ansible-navigator.yml', '/home/jveverka/.ansible-navigator.yaml' and '/home/jveverka/.ansible-navigator.json'
+211216214720.603 DEBUG 'ansible_navigator.main' Found 0: 
+211216214720.603 DEBUG 'ansible_navigator.main' Looking in /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks
+211216214720.603 DEBUG 'ansible_navigator.main' Looking for '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yaml' and '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.json'
+211216214720.603 DEBUG 'ansible_navigator.main' Found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216214720.603 DEBUG 'ansible_navigator.main' All found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216214720.603 DEBUG 'ansible_navigator.main' Using: /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml
+211216214720.603 DEBUG 'ansible_navigator.main' Using settings file at /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml in search path
+211216214720.603 DEBUG 'ansible_navigator.main' Command provided: 'collections --log-leve debug'
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.timeout not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.app not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.cmdline not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.collection-doc-cache-path not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-engine not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-options not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.color.enable not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.editor.command not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.editor.console not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.enabled not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.help-config not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.help-doc not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.help-inventory not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.help-playbook not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.inventories not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.inventory-columns not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.logging.append not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.mode not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.color.osc4 not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.enable not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.replay not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.save-as not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.documentation.plugin.name not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.documentation.plugin.type not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.pull-policy not found in settings file
+211216214720.603 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_artifact_dir. (changed=False)
+211216214720.603 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_rotate_artifacts_count. (changed=False)
+211216214720.603 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_timeout. (changed=False)
+211216214720.603 DEBUG 'ansible_navigator.main' Completed post processing for cmdline. (changed=False)
+211216214720.603 DEBUG 'ansible_navigator.main' Completed post processing for collection_doc_cache_path. (changed=False)
+211216214720.603 DEBUG 'ansible_navigator.main' Completed post processing for container_engine. (changed=True)
+211216214720.603 DEBUG 'ansible_navigator.main'  before: 'auto'
+211216214720.604 DEBUG 'ansible_navigator.main'  after: 'podman'
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for container_options. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for display_color. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for editor_console. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_image. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_volume_mounts. (changed=True)
+211216214720.604 DEBUG 'ansible_navigator.main'  before: '[{'src': '/home/jveverka/git/jwerak/ansible', 'dest': '/home/jveverka/git/jwerak/ansible', 'label': 'Z'}]'
+211216214720.604 DEBUG 'ansible_navigator.main'  after: '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']'
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for help_config. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for help_doc. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for help_inventory. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for help_playbook. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for inventory. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for inventory_column. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for log_append. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for log_file. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for mode. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for osc4. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for pass_environment_variable. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for playbook. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_enable. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_replay. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for plugin_name. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Completed post processing for set_environment_variable. (changed=False)
+211216214720.604 DEBUG 'ansible_navigator.main' Collection doc cache not mounted
+211216214720.604 DEBUG 'ansible_navigator.main' Collection doc cache: 'path' is '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db'
+211216214720.604 DEBUG 'ansible_navigator.main' Collection doc cache: 'current version' is '1.0'
+211216214720.604 DEBUG 'ansible_navigator.main' Collection doc cache not attached to args.internals
+211216214720.604 DEBUG 'ansible_navigator.main' Running with ansible_runner_artifact_dir as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with ansible_runner_rotate_artifacts_count as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with ansible_runner_timeout as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with app as 'collections' (str/cli parameters)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with cmdline as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with collection_doc_cache_path as '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db' (str/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with config as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with container_engine as 'podman' (str/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with container_options as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with display_color as 'True' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with editor_command as '/usr/bin/nano {filename}' (str/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with editor_console as 'True' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with execution_environment as 'True' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with execution_environment_image as 'registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30' (str/user provided configuration file)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with execution_environment_volume_mounts as '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']' (list/user provided configuration file)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with help_config as 'False' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with help_doc as 'False' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with help_inventory as 'False' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with help_playbook as 'False' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with inventory as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with inventory_column as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with log_append as 'True' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with log_file as '/tmp/log.txt' (str/user provided configuration file)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with log_level as 'debug' (str/cli parameters)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with mode as 'interactive' (str/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with osc4 as 'True' (bool/default configuration value)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with pass_environment_variable as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.604 DEBUG 'ansible_navigator.main' Running with playbook as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with playbook_artifact_enable as 'True' (bool/default configuration value)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with playbook_artifact_replay as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with playbook_artifact_save_as as '{playbook_dir}/{playbook_name}-artifact-{ts_utc}.json' (str/default configuration value)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with plugin_name as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with plugin_type as 'module' (str/default configuration value)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with pull_policy as 'tag' (str/default configuration value)
+211216214720.605 DEBUG 'ansible_navigator.main' Running with set_environment_variable as '{'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible'}' (dict/user provided configuration file)
+211216214720.605 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: 1.0.0-30
+211216214720.752 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=False, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214720.753 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' curses.COLORS: 8
+211216214720.754 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' curses.can_change_color: False
+211216214720.754 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' term_osc4_supprt: False
+211216214720.754 DEBUG 'ansible_navigator.ui_framework.curses_window._set_colors' Using terminal defaults
+211216214720.757 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214720.781 DEBUG 'ansible_navigator.actions.collections.run' collections requested
+211216214720.782 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214720.794 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Looking in /home/jveverka
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Looking for '/home/jveverka/.ansible-navigator.yml', '/home/jveverka/.ansible-navigator.yaml' and '/home/jveverka/.ansible-navigator.json'
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Found 0: 
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Looking in /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Looking for '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yaml' and '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.json'
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' All found 1: '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml'
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Using: /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Using settings file at /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ansible-navigator.yml in search path
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' Command provided: 'collections'
+211216214720.806 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured. (restore original)
+211216214720.806 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured. (restore original)
+211216214720.806 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured. (apply defaults)
+211216214720.806 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured. (apply defaults)
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible-runner.timeout not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.app not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.cmdline not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.collection-doc-cache-path not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.config not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.container-engine not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.container-options not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.color.enable not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.editor.command not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.editor.console not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.enabled not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-config not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-doc not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-inventory not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.help-playbook not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.inventories not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.inventory-columns not found in settings file
+211216214720.806 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.logging.append not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.mode not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.color.osc4 not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.ansible.playbook not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.playbook-artifact.enable not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.playbook-artifact.replay not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.playbook-artifact.save-as not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.documentation.plugin.name not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.documentation.plugin.type not found in settings file
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' ansible-navigator.execution-environment.pull-policy not found in settings file
+211216214720.807 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured (apply previous cli)
+211216214720.807 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured (apply previous cli)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for ansible_runner_artifact_dir. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for ansible_runner_rotate_artifacts_count. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for ansible_runner_timeout. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for cmdline. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for collection_doc_cache_path. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for container_engine. (changed=True)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args'  before: 'auto'
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args'  after: 'podman'
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for container_options. (changed=False)
+211216214720.807 INFO 'ansible_navigator.actions.collections._update_args' 'display_color' cannot be reconfigured. (post process)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for editor_console. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for execution_environment. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for execution_environment_image. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for execution_environment_volume_mounts. (changed=True)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args'  before: '[{'src': '/home/jveverka/git/jwerak/ansible', 'dest': '/home/jveverka/git/jwerak/ansible', 'label': 'Z'}]'
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args'  after: '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']'
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_config. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_doc. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_inventory. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for help_playbook. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for inventory. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for inventory_column. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for log_append. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for log_file. (changed=False)
+211216214720.807 INFO 'ansible_navigator.actions.collections._update_args' 'mode' cannot be reconfigured. (post process)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for osc4. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for pass_environment_variable. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for playbook. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for playbook_artifact_enable. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for playbook_artifact_replay. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for plugin_name. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Completed post processing for set_environment_variable. (changed=False)
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache not mounted
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache: 'path' is '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db'
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache: 'current version' is '1.0'
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Collection doc cache attached to args.internals
+211216214720.807 DEBUG 'ansible_navigator.actions.collections._update_args' Running with ansible_runner_artifact_dir as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with ansible_runner_rotate_artifacts_count as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with ansible_runner_timeout as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with app as 'collections' (str/cli parameters)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with cmdline as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with collection_doc_cache_path as '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with config as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with container_engine as 'podman' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with container_options as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with display_color as 'True' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with editor_command as '/usr/bin/nano {filename}' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with editor_console as 'True' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with execution_environment as 'True' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with execution_environment_image as 'registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30' (str/user provided configuration file)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with execution_environment_volume_mounts as '['/home/jveverka/git/jwerak/ansible:/home/jveverka/git/jwerak/ansible:Z']' (list/user provided configuration file)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_config as 'False' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_doc as 'False' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_inventory as 'False' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with help_playbook as 'False' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with inventory as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with inventory_column as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with log_append as 'True' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with log_file as '/tmp/log.txt' (str/user provided configuration file)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with log_level as 'debug' (str/previous cli command)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with mode as 'interactive' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with osc4 as 'True' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with pass_environment_variable as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook_artifact_enable as 'True' (bool/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook_artifact_replay as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with playbook_artifact_save_as as '{playbook_dir}/{playbook_name}-artifact-{ts_utc}.json' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with plugin_name as 'Constants.NOT_SET' (Constants/value has not been set)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with plugin_type as 'module' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with pull_policy as 'tag' (str/default configuration value)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._update_args' Running with set_environment_variable as '{'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible'}' (dict/user provided configuration file)
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._run_runner' running collections command with execution environment enabled
+211216214720.808 DEBUG 'ansible_navigator.actions.collections._run_runner' Invoke runner with executable_cmd: python3 and kwargs: {'container_engine': 'podman', 'execution_environment_image': 'registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30', 'execution_environment': True, 'navigator_mode': 'interactive', 'pass_environment_variable': <Constants.NOT_SET: 'value has not been set'>, 'set_environment_variable': {'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible', 'ANSIBLE_NOCOLOR': 'True'}, 'private_data_dir': <Constants.NOT_SET: 'value has not been set'>, 'rotate_artifacts': <Constants.NOT_SET: 'value has not been set'>, 'timeout': <Constants.NOT_SET: 'value has not been set'>, 'container_volume_mounts': ['/home/jveverka/.local/share/ansible_navigator/utils:/home/jveverka/.local/share/ansible_navigator/utils', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:z'], 'host_cwd': '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks', 'cmdline': ['/home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py', '-a', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections', '-c', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db']}
+211216214720.809 DEBUG 'ansible_navigator.runner.api._set_private_data_directory' private data dir not user provided, used tmp location: /tmp/ansible-navigator_2srao4qv
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_image:registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: process_isolation_executable:podman
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: process_isolation:True
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_volume_mounts:['/home/jveverka/.local/share/ansible_navigator/utils:/home/jveverka/.local/share/ansible_navigator/utils', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db:z']
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_options:None
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: container_workdir:None
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: private_data_dir:/tmp/ansible-navigator_2srao4qv
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: json_mode:True
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: quiet:True
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: cancel_callback:<bound method BaseRunner.runner_cancelled_callback of <ansible_navigator.runner.api.CommandRunner object at 0x7f0c5c553f10>>
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: finished_callback:<bound method BaseRunner.runner_finished_callback of <ansible_navigator.runner.api.CommandRunner object at 0x7f0c5c553f10>>
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: artifacts_handler:<bound method BaseRunner.runner_artifacts_handler of <ansible_navigator.runner.api.CommandRunner object at 0x7f0c5c553f10>>
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: timeout:None
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: envvars:{'ANSIBLE_COLLECTIONS_PATHS': '/home/jveverka/git/jwerak/ansible', 'ANSIBLE_NOCOLOR': 'True'}
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: host_cwd:/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: executable_cmd:python3
+211216214720.809 DEBUG 'ansible_navigator.runner.api.generate_run_command_args' Runner arg: cmdline_args:['/home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py', '-a', '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections', '-c', '/home/jveverka/.cache/ansible-navigator/collection_doc_cache.db']
+211216214720.810 DEBUG 'ansible-runner._handle_command_wrap' containerization enabled
+211216214720.810 DEBUG 'ansible-runner.wrap_args_for_containerization' container engine invocation: podman run --rm --tty --interactive -v /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/:/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ --workdir /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks -v /run/user/1000/keyring/:/run/user/1000/keyring/ -e SSH_AUTH_SOCK=/run/user/1000/keyring/ssh -v /home/jveverka/.ssh/:/home/runner/.ssh/ --group-add=root --ipc=host -v /tmp/ansible-navigator_2srao4qv/artifacts/:/runner/artifacts/:Z -v /tmp/ansible-navigator_2srao4qv/:/runner/:Z -v /home/jveverka/.local/share/ansible_navigator/utils/:/home/jveverka/.local/share/ansible_navigator/utils/ -v /home/jveverka/.cache/ansible-navigator/:/home/jveverka/.cache/ansible-navigator/:z --env-file /tmp/ansible-navigator_2srao4qv/artifacts/d51573a4-ad01-4095-92f5-a221b7911886/env.list --quiet --name ansible_runner_d51573a4-ad01-4095-92f5-a221b7911886 registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30 python3 /home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py -a /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections -c /home/jveverka/.cache/ansible-navigator/collection_doc_cache.db
+211216214720.810 DEBUG 'ansible-runner._handle_command_wrap' command: podman run --rm --tty --interactive -v /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/:/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/ --workdir /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks -v /run/user/1000/keyring/:/run/user/1000/keyring/ -e SSH_AUTH_SOCK=/run/user/1000/keyring/ssh -v /home/jveverka/.ssh/:/home/runner/.ssh/ --group-add=root --ipc=host -v /tmp/ansible-navigator_2srao4qv/artifacts/:/runner/artifacts/:Z -v /tmp/ansible-navigator_2srao4qv/:/runner/:Z -v /home/jveverka/.local/share/ansible_navigator/utils/:/home/jveverka/.local/share/ansible_navigator/utils/ -v /home/jveverka/.cache/ansible-navigator/:/home/jveverka/.cache/ansible-navigator/:z --env-file /tmp/ansible-navigator_2srao4qv/artifacts/d51573a4-ad01-4095-92f5-a221b7911886/env.list --quiet --name ansible_runner_d51573a4-ad01-4095-92f5-a221b7911886 registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30 python3 /home/jveverka/.local/share/ansible_navigator/utils/catalog_collections.py -a /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections -c /home/jveverka/.cache/ansible-navigator/collection_doc_cache.db
+211216214722.858 DEBUG 'ansible_navigator.runner.api.runner_artifacts_handler' ansible-runner artifact_dir set to: '/tmp/ansible-navigator_2srao4qv/artifacts/d51573a4-ad01-4095-92f5-a221b7911886'
+211216214722.859 DEBUG 'ansible_navigator.actions.collections._parse' json loading output succeeded
+211216214722.859 INFO 'ansible_navigator.actions.collections._parse' [catalog_collections]: collection path '/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/' is ignored as it does not have 'MANIFEST.json' and/or 'galaxy.yml' file(s).
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' catalog collections scan path: /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections:/home/jveverka/git/jwerak/ansible:/usr/lib/python3.8/site-packages:/usr/lib64/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib64/python3.8/site-packages:/usr/lib64/python3.8/lib-dynload:/usr/lib64/python3.8:/usr/lib64/python38.zip:/home/jveverka/.local/share/ansible_navigator/utils:/usr/lib/python3.8/site-packages/ansible/_vendor
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' cache_added_success: 0
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' cache_added_errors: 0
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' collection_count: 0
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' plugin_count: 0
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' unique plugins: 0
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' processed: 0
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' cache_length: 6309
+211216214722.860 DEBUG 'ansible_navigator.actions.collections._parse' duration: 0.359319
+211216214722.861 WARNING 'ansible_navigator.actions.collections._parse' No collections found in execution environment, searched in /home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test/playbooks/collections:/home/jveverka/git/jwerak/ansible:/usr/lib/python3.8/site-packages:/usr/lib64/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib64/python3.8/site-packages:/usr/lib64/python3.8/lib-dynload:/usr/lib64/python3.8:/usr/lib64/python38.zip:/home/jveverka/.local/share/ansible_navigator/utils:/usr/lib/python3.8/site-packages/ansible/_vendor
+211216214722.862 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214722.891 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214722.892 DEBUG 'ansible_navigator.ui_framework.curses_window.__init__' self._ui_config: UIConfig(color=True, colors_initialized=True, grammar_dir='/home/jveverka/.local/share/ansible_navigator/grammar', osc4=True, terminal_colors_path='/home/jveverka/.local/share/ansible_navigator/themes/terminal_colors.json', theme_path='/home/jveverka/.local/share/ansible_navigator/themes/dark_vs.json')
+211216214743.411 WARNING 'ansible_navigator.run' Dirty exit, killing the pid
