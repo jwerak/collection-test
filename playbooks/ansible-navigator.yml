@@ -1,0 +1,14 @@
+---
+ansible-navigator:
+  execution-environment:
+    image: registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:1.0.0-30
+    environment-variables:
+      set:
+        ANSIBLE_COLLECTIONS_PATHS: /home/jveverka/git/jwerak/ansible
+    volume-mounts:
+      - src: "/home/jveverka/git/jwerak/ansible"
+        dest: "/home/jveverka/git/jwerak/ansible"
+        label: "Z"
+  logging:
+    level: critical
+    file: /tmp/log.txt
