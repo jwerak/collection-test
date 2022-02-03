@@ -1,0 +1,6 @@
+---
+- name: Test calling role from this collection
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - name: jwerak.collection_test.test_role

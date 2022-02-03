@@ -6,7 +6,7 @@ The goal is to have test playbooks e.g. in playbooks directory which would test 
 
 This collection is stored under ansible_collections path: `/home/jveverka/git/jwerak/ansible/ansible_collections/jwerak/collection_test` on my localhost.
 
-I am trying to list collections available in execution environment using command `ansible-navigator collections --log-leve debug`, but the result is:
+I am trying to list collections available in execution environment using command `ansible-navigator collections --log-level debug`, but the result is:
 
 ```
 humph. no collections were found in the following paths:
